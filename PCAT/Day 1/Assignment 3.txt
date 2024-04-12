@@ -1,0 +1,72 @@
+Function Design and Modularization
+
+1. Factorial Function
+
+factorial(num)
+
+Input integer num 
+Output integer result
+
+Pseudocode - 
+
+-> function factorial(num):
+    if num == 0
+        return 1
+    else
+        result = 1
+        for i from 1 to n:
+            result = result * i
+        return result
+
+The integer number is passed in function factorial. If number is 0 then return 1 and if number is greater the it will go in else condition where result declared as 1 and for loop running i from 1 to number and multiplying i in result and returrning the result.
+
+
+2.Fibonacci Function:
+
+fibonacci(n)
+
+Input: integer n
+Output: integer result
+
+Pseudocode-
+
+-> function fibonacci(n):
+    if n==0
+        return 0
+    else if n==1
+        return 1
+    else:
+        prev1 = 0
+        prev2 = 1
+        for i from 2 to n:
+            result = prev1 + prev2
+            prev1 = prev2
+            prev2 = result
+        return result
+
+This function calculates the nth Fibonacci number. If n is 0, it returns 0; if n is 1, it returns 1. For n greater than 1, it uses a loop to calculate each Fibonacci number iteratively from 2 to n by summing the previous two Fibonacci numbers and then putting prev1 equal to prev2 and prev2 equals result to maintain series.
+
+
+Modularity - Practice of breaking down a program into smaller, manageable, and reusable components called modules.These modules have specific functionalities, making the code easier to understand and maintain.
+
+Advantages - 
+Modularity helps in code reusability, enhances organization, simplifies debugging and testing making code easy to maintain.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
