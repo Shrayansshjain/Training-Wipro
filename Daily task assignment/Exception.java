@@ -1,6 +1,6 @@
 package exception;
 //import java.lang.ArrayIndexOutOfBoundsException;
-public class Exception {
+public class ExceptionFirst {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
